@@ -1,0 +1,17 @@
+.overview__button {
+  display: flex;
+  flex-direction: row;
+
+  &--resume {
+    border: 2px solid pink;
+    color: white;
+    padding: 0 15px 0 15px;
+    margin-right: 10px;
+  }
+
+  &--contact-me {
+    border: 2px solid red;
+    color: white;
+    padding: 0 15px 0 15px;
+  }
+}
