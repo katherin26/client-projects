@@ -78,7 +78,8 @@ body {
 
 .overview__button {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  border: 2px solid rebeccapurple; }
   .overview__button--resume {
     border: 2px solid pink;
     color: white;
@@ -89,8 +90,24 @@ body {
     color: white;
     padding: 0 15px 0 15px; }
 
-.overview__title {
-  border: 2px solid red;
+.overview {
+  border: 2px solid pink;
   display: flex;
   align-items: center;
   flex-direction: column; }
+  .overview__title {
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px; }
+  .overview__photo {
+    border: 2px solid blue;
+    width: 100px;
+    height: 100px;
+    margin: 20px; }
+    .overview__photo--img {
+      border: 2px solid red;
+      width: 100%;
+      height: 100%;
+      text-align: center; }
