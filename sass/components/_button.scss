@@ -16,3 +16,14 @@
     padding: 0 15px 0 15px;
   }
 }
+
+.contact-section {
+  border: 2px solid gray;
+  &--linkedin {
+    border: 2px solid pink;
+  }
+
+  &--email {
+    border: 2px solid pink;
+  }
+}
