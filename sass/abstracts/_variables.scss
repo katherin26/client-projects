@@ -1,0 +1,22 @@
+:root {
+  --d: 700ms;
+  --e: cubic-bezier(0.19, 1, 0.22, 1);
+  --font-sans: "Rubik", sans-serif;
+  --font-serif: "Cardo", serif;
+}
+
+$color-primary: #054342;
+$color-primary: #06a79b;
+$color-secondary: #18eed9;
+$color-secondary-dark: #50f8ed;
+$color-secondary-light: #8dfaf1;
+$color-grey: #777;
+$color-grey-light: rgb(173, 171, 171);
+$color-grey-dark: #333;
+
+$color-white: #fff;
+$color-black: #000;
+
+$color-transparent: rgba(0, 0, 0, 0);
+
+$default-font-size: 1.6rem;
