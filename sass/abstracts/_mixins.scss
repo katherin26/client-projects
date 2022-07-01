@@ -1,19 +1,20 @@
-@mixin respond($breakpoint) {
-  @if $breakpoint == tab-port {
-    @media only screen and (min-width: 37.6em) {
-      @content;
-    }
+@mixin bp-sm {
+  @media (min-width: 40.625em) {
+    @content;
   }
+}
+@mixin bp-md {
+  @media (min-width: 48em) {
+    @content;
+  }
+}
+@mixin bp-lg {
+  @media (min-width: 62em) {
+    @content;
+  }
+}
 
-  @if $breakpoint == tab-land {
-    @media only screen and(min-width: 56.25em) {
-      @content;
-    }
-  }
-
-  @if $breakpoint == big-desktop {
-    @media only screen and (min-width: 112.5em) {
-      @content;
-    }
-  }
+@mixin pseudo-starter {
+  content: "";
+  display: block;
 }
