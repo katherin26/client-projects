@@ -1,17 +1,12 @@
+
 :root {
-  --d: 700ms;
-  --e: cubic-bezier(0.19, 1, 0.22, 1);
-  --font-sans: "Rubik", sans-serif;
-  --font-serif: "Cardo", serif;
-
-  //COLOR BACKGROUND
-
-  --color-brand-primary: hsl(var(--color-brand-primary-h), 43%, 43%);
-  --color-brand-primary-h: 251;
+  // COLORS
+  --color-brand-primary: hsl(var(--color-brand-primary-h), 96%, 11%);
+  --color-brand-primary-h: 196;
   --color-brand-primary-s: 43%;
   --color-brand-primary-l: 43%;
-  --color-brand-accent: hsl(var(--color-brand-accent-h), 96%, 61%);
-  --color-brand-accent-h: 16;
+  --color-brand-accent: hsl(var(--color-brand-accent-h), 100%, 71%);
+  --color-brand-accent-h: 178;
   --color-brand-accent-s: 96%;
   --color-brand-accent-l: 61%;
   --color-brand-accent-bg: hsl(
@@ -19,7 +14,6 @@
     100%,
     96%
   );
-}
 
 $color-primary: hsl(179, 86%, 14%);
 $color-primary-light: #06a79b;
