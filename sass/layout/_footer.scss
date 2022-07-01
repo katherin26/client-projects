@@ -1,1 +1,60 @@
+.footer {
+  color: var(--color-brand-accent);
+  text-align: center;
+  @include bp-lg {
+    margin-top: 115px;
+  }
+  &__btn {
+    &--resume {
+      &:hover,
+      &:focus {
+        animation: pulse 1s;
+        box-shadow: 0 0 0 2em transparent;
+      }
+    }
+    &--linkedin {
+      &:hover,
+      &:focus {
+        animation: pulse 1s;
+        box-shadow: 0 0 0 2em transparent;
+      }
+    }
+  }
+}
 
+$colors: (
+  pulse: white,
+);
+
+@each $button, $color in $colors {
+  .#{$button} {
+    --color: #{$color};
+    --hover: #{adjust-hue($color, 45deg)};
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--color-brand-accent);
+  }
+}
+
+button {
+  color: var(--color);
+  transition: 0.25s;
+  &:hover,
+  &:focus {
+    border-color: var(--hover);
+    color: var(--color);
+  }
+}
+
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.2em;
+  padding: 1em 2em;
+  cursor: pointer;
+}

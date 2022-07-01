@@ -1,4 +1,3 @@
-
 :root {
   // COLORS
   --color-brand-primary: hsl(var(--color-brand-primary-h), 96%, 11%);
@@ -14,6 +13,35 @@
     100%,
     96%
   );
+
+  // TYPOGRAPHY
+  --ratio: 1.4; // The ratio number
+  --s-6: calc(var(--s-5) / var(--ratio));
+  --s-5: calc(var(--s-4) / var(--ratio));
+  --s-4: calc(var(--s-3) / var(--ratio));
+  --s-3: calc(var(--s-2) / var(--ratio));
+  --s-2: calc(var(--s-1) / var(--ratio));
+  --s-1: calc(var(--s0) / var(--ratio));
+  --s0: calc(1.05rem + 0.333vw);
+  @include bp-sm {
+    --s0: calc(1.25rem + 0.333vw);
+  }
+  @include bp-md {
+    --s0: calc(1.4rem + 0.333vw);
+  }
+  @include bp-lg {
+    --s0: calc(1.6rem + 0.333vw);
+  }
+  --s1: calc(var(--s0) * var(--ratio));
+  --s2: calc(var(--s1) * var(--ratio));
+  --s3: calc(var(--s2) * var(--ratio));
+  --s4: calc(var(--s3) * var(--ratio));
+  --s5: calc(var(--s4) * var(--ratio));
+  --s6: calc(var(--s5) * var(--ratio));
+  font-size: 62.5%; // ~10px
+  line-height: 1.6;
+  box-sizing: border-box;
+}
 
 $color-primary: hsl(179, 86%, 14%);
 $color-primary-light: #06a79b;
