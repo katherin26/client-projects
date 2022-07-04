@@ -4,12 +4,12 @@
   }
 }
 @mixin bp-md {
-  @media (min-width: 48em) {
+  @media (min-width: 56.25em) {
     @content;
   }
 }
 @mixin bp-lg {
-  @media (min-width: 62em) {
+  @media (min-width: 112.5em) {
     @content;
   }
 }

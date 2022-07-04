@@ -1,9 +1,21 @@
 .footer {
+  display: flex;
+  flex-direction: column;
   color: var(--color-brand-accent);
   text-align: center;
-  @include bp-lg {
-    margin-top: 115px;
+  padding-top: 10px;
+
+  @include bp-sm {
+    padding-top: 100px;
   }
+  @include bp-md {
+    padding-top: 50px;
+  }
+
+  @include bp-lg {
+    padding-top: 170px;
+  }
+
   &__btn {
     &--resume {
       &:hover,
