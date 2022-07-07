@@ -32,6 +32,11 @@
       }
     }
   }
+
+  &__copyright {
+    padding-top: 10px;
+    font-size: inherit;
+  }
 }
 
 $colors: (
@@ -51,7 +56,7 @@ $colors: (
   }
 }
 
-button {
+.button {
   color: var(--color);
   transition: 0.25s;
   &:hover,
@@ -61,12 +66,12 @@ button {
   }
 }
 
-button {
+.button {
   background: none;
   border: 2px solid;
   font: inherit;
   line-height: 1;
   margin: 0.2em;
-  padding: 1em 2em;
+  padding: 0.5em 2.5em;
   cursor: pointer;
 }

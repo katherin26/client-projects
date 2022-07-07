@@ -112,6 +112,9 @@ body {
   .footer__btn--linkedin:hover, .footer__btn--linkedin:focus {
     animation: pulse 1s;
     box-shadow: 0 0 0 2em transparent; }
+  .footer__copyright {
+    padding-top: 10px;
+    font-size: inherit; }
 
 .pulse {
   --color: white;
@@ -121,20 +124,20 @@ body {
   0% {
     box-shadow: 0 0 0 0 var(--color-brand-accent); } }
 
-button {
+.button {
   color: var(--color);
   transition: 0.25s; }
-  button:hover, button:focus {
+  .button:hover, .button:focus {
     border-color: var(--hover);
     color: var(--color); }
 
-button {
+.button {
   background: none;
   border: 2px solid;
   font: inherit;
   line-height: 1;
   margin: 0.2em;
-  padding: 1em 2em;
+  padding: 0.5em 2.5em;
   cursor: pointer; }
 
 .c-section {
