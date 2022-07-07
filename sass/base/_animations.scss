@@ -1,0 +1,18 @@
+//Button footer animation
+
+$colors: (
+  pulse: white,
+);
+
+@each $button, $color in $colors {
+  .#{$button} {
+    --color: #{$color};
+    --hover: #{adjust-hue($color, 45deg)};
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--color-brand-accent);
+  }
+}
