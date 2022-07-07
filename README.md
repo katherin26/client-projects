@@ -1,7 +1,9 @@
 # **Personal webpage project client**
 
-1. Using Mobile First
-2. Sass and FontAwesome
+Project build with SASS and Html, deployment with AWS.
+UX/UI /Animations: Parallax effect and keyframes.
+
+This is a personal portfolio for a bachelor's degree graduate.
 
 # **Mobile First : Media Queries**
 
