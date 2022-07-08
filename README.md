@@ -44,3 +44,5 @@ This is a personal portfolio for a bachelor's degree graduate.
 ```
 
 4. **Copy and paste the webfonts in the public root** : webfonts
+
+![Drag Racing](images/screen_shoot_page_LF.png)
