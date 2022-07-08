@@ -11,7 +11,6 @@
     font-size: var(--s2);
     font-weight: 1000;
     text-align: center;
-    letter-spacing: 3px;
 
     @include bp-sm {
       display: flex;
@@ -35,6 +34,14 @@
       @include bp-sm {
         margin-left: auto;
         margin-right: 0;
+        transform: translateY(1rem);
+      }
+
+      @include bp-md {
+        transform: translateY(2rem);
+      }
+
+      @include bp-lg {
         transform: translateY(8rem);
       }
       z-index: 1;
@@ -78,10 +85,10 @@
       padding-top: 2rem;
 
       @include bp-sm {
-        width: 47ch;
+        // width: 47ch;
       }
       @include bp-md {
-        width: 57ch;
+        //width: 57ch;
       }
       @include bp-lg {
         //width: 67ch;

@@ -1,7 +1,7 @@
 # **Personal webpage project client**
 
 Project build with SASS and Html, deployment with AWS.
-UX/UI /Animations: Parallax effect and keyframes.
+UX/UI /Animations: **Parallax effect** and keyframes for button animations called pulse.
 
 This is a personal portfolio for a bachelor's degree graduate.
 
